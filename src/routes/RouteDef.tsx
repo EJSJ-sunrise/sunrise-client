@@ -5,6 +5,11 @@ import LoginPage from "../pages/LoginPage";
 export const AppRouteDef = {
   Main: {
     path: "/",
+    element: <MainPage />,
+  },
+
+  Login: {
+    path: "/login",
     element: <LoginPage />,
   },
 };
